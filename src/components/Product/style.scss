@@ -1,0 +1,56 @@
+.pdp-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px;
+  .product-info {
+    .about--product {
+      display: flex;
+      .main-image {
+        display: flex;
+        flex-direction: column;
+        .rating-product {
+          display: flex;
+          align-items: center;
+          .rating-star {
+            display: flex;
+            justify-content: flex-start;
+          }
+        }
+        img {
+          width: 575px;
+          height: 400px;
+        }
+      }
+      .thumbnails {
+        display: flex;
+        flex-direction: column;
+        .selected--image {
+          border: 2px solid black;
+        }
+        .thumbnail--image {
+          // background: beige;
+          img {
+            width: 250px;
+            height: 167px;
+          }
+        }
+      }
+    }
+    .product--info--button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > div {
+        border: 1px solid black;
+        margin: 0 10px;
+        padding: 5px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .addToCart {
+        color: white;
+        background: black;
+      }
+    }
+  }
+}

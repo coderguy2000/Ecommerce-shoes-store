@@ -1,0 +1,11 @@
+.product-page {
+  display: flex;
+  margin: 50px 20px;
+  @media (max-width: 720px) {
+    margin: 20px 0;
+    flex-direction: column;
+    .cart--page {
+      display: none;
+    }
+  }
+}

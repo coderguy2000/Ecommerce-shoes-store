@@ -1,0 +1,40 @@
+.contact--page {
+  margin-top: 50px;
+  .contact--box {
+    margin: auto;
+    border: 1px solid white;
+    width: 335px;
+    box-shadow: 0 0 10px #888888;
+    .contact {
+      &--heading {
+        margin: 40px 0 30px;
+        h2 {
+          font-weight: 400;
+        }
+      }
+      &--ways {
+        &--email {
+          margin: 20px;
+          margin-left: 50px;
+          text-align: left;
+          h4 {
+            font-size: 19px;
+            font-weight: 600;
+          }
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  .contact--footer {
+    margin-top: 70px;
+    &--socialLogo {
+      img {
+        margin: 10px;
+        width: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.store--productcard {
+  .productCard {
+    margin: 20px;
+    .productCard {
+      &--image {
+        img {
+          width: 305px;
+          height: 210px;
+        }
+      }
+      &--name {
+        display: flex;
+      }
+      &--price--rating {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .rating {
+          > div {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+  .addToCart {
+    background: black;
+    color: white;
+    margin: 0 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid black;
+      color: black;
+      background-color: white;
+    }
+  }
+}

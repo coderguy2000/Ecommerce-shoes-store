@@ -1,0 +1,21 @@
+.team--page {
+  margin-top: 50px;
+  .heading {
+    margin: 10px 0 50px;
+    h3 {
+      font-weight: 500;
+    }
+  }
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footers {
+    margin-top: 40px;
+    h3 {
+      font-weight: 500;
+      font-size: 28px;
+    }
+  }
+}

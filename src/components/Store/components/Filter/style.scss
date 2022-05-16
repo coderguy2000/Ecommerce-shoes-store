@@ -1,0 +1,64 @@
+.filterPage {
+  box-shadow: 0 0 10px #888888;
+  height: 80vh;
+  width: 500px;
+  height: fit-content;
+  padding: 20px 0;
+  @media (max-width: 720px) {
+    height: unset;
+    width: unset;
+    margin-bottom: 40px;
+  }
+  .filters {
+    margin-left: 30px;
+
+    > form {
+      button {
+        background: black;
+        color: white;
+        padding: 5px 8px;
+        margin-bottom: 15px;
+      }
+      > div {
+        margin: 20px 0;
+      }
+    }
+    .filter {
+      &--cost,
+      &--color,
+      &--design,
+      &--type {
+        .input--heading,
+        &--heading {
+          margin-bottom: 8px;
+          font-size: 16px;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          input {
+            margin-right: 10px;
+          }
+        }
+        @media (max-width: 720px) {
+          display: flex;
+          flex-wrap: wrap;
+          &--heading {
+            width: 100%;
+          }
+          .input--heading {
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+    .filter--color {
+      .colorBox {
+        color: white;
+        min-width: 70px;
+        padding: 3px 0;
+        font-weight: 400;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.cart--page {
+  width: 650px;
+  min-height: 80vh;
+  height: fit-content;
+  box-shadow: 0 0 10px #888888;
+  .cart--heading {
+    padding: 20px 0;
+  }
+  .cart--product--list {
+    height: 100%;
+    .empty--cart {
+      height: 100%;
+      margin-top: 50%;
+    }
+  }
+}

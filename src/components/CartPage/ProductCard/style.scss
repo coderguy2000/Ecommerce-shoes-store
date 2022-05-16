@@ -1,0 +1,35 @@
+.cart--productCard {
+  margin: 20px;
+  position: relative;
+  .remove--product {
+    img {
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  .productCard {
+    &--image {
+      img {
+        width: 305px;
+        height: 210px;
+      }
+    }
+    &--name {
+      display: flex;
+    }
+    &--price--rating {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .rating {
+        > div {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

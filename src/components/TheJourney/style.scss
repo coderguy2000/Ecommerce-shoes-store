@@ -1,0 +1,39 @@
+.journey--page {
+  border: 1px solid white;
+  margin: 50px 20px 0;
+  color: white;
+  background: url("./farmJourney.jpg");
+  @media (max-width: 720px) {
+    background: url("./mobile-farm.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .heading {
+    margin: 80px;
+  }
+  .journey--chapters {
+    margin-left: 20px;
+    .journey--data:not(:last-child) {
+      border-left: 1px solid white;
+    }
+    .journey--data {
+      text-align: left;
+      list-style: none;
+      padding-left: 30px;
+      padding-bottom: 30px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 36.5px;
+        width: 7px;
+        height: 7px;
+        background: white;
+        border-radius: 100%;
+      }
+    }
+  }
+}
